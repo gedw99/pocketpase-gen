@@ -1,4 +1,3 @@
-# https://developer.apple.com/sample-code/app-store-connect/app-store-connect-openapi-specification.zip
 SHELL = /bin/bash
 
 OS_GO_BIN_NAME=go
@@ -15,7 +14,7 @@ DATA_ROOT=$(PWD)/.data
 
 BIN_MAIN_NAME=pb-gen
 ifeq ($(OS_GO_OS),windows)
-	BIN_MAIN_NAME=pbj.exe
+	BIN_MAIN_NAME=pb-gen.exe
 endif
 BIN_MAIN=$(BIN_ROOT)/$(BIN_MAIN_NAME)
 BIN_MAIN_WHICH=$(shell command -v $(BIN_MAIN_NAME))

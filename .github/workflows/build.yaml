@@ -10,8 +10,8 @@ on:
       - '*'
   pull_request:
 
-env:
-  DESTDIR: ./bin
+#env:
+#  DESTDIR: ./bin
 
 jobs:
 
